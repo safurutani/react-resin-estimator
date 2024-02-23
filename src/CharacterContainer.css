@@ -1,0 +1,29 @@
+#char-container {
+    display:flex;
+    justify-content: center;
+}
+#char-container > div {
+    width: 200px;
+}
+img {
+    height: 120px;
+    margin: auto;
+}
+p{
+    margin: 0;
+}
+.subtitle {
+    line-height: 1;
+    text-align: center;
+    width: 150px;
+    margin:auto;
+}
+.multiple-imgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+.scaled-image {
+    width: 50%;
+    height: auto;
+}
+
