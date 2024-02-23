@@ -36,4 +36,4 @@ This project is a Genshin Impact resin estimator built using React. It helps pla
 4. Start the development server: npm start
 
 ## Live Demo
-A live demo of the project is available here.
+A live demo of the project is available [here](https://safurutani.github.io/react-resin-estimator/).
