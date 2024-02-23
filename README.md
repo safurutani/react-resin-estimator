@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Genshin Impact Talent Resin Estimator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Genshin Impact resin estimator built using React. It helps players estimate the amount of resin needed to ascend the character and level up their talents.
 
-## Available Scripts
+## Technologies used
 
-In the project directory, you can run:
+- React
+- JavaScript
+- CSS
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Input fields for users to set their current and desired talent levels/character levels.
+2. Input fields for users to input their inventory of talent books/boss drops.
+3. Options to select Xingqiu's crafting bonus or the use of Condensed Resin.
+4. Simulates the amount of resin needed and the number of runs required for domain and weekly boss materials with calculations utilizing the RNG of drop rates.
+5. Displays the estimated number of days needed to acquire the required materials.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+1. Enter your current and desired talent levels for Normal Attack, Skill, and Burst.
+2. Input the number of Green, Blue, and Purple talent books you currently have in your inventory.
+3. Check the box for Xingqiu's crafting bonus if applicable.
+4. Check the box to use Condensed Resin if desired.
+5. Click the "Calculate Resin" button to see the estimated resin and material requirements.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. Enter your current and desired character levels.
+7. If either of those inputs are at the ascension levels (20, 40, 50, 70, 80) indicate whether your character is ascended/should be ascended at this point.
+8. Input the number of boss drops currently in your inventory
+9. Click the "Calculate Resin" button to see the estimated resin and boss drops needed.
 
-### `npm run build`
+## Installation
+1. Clone the repository: git clone https://github.com/safurutani/react-resin-estimator.git
+2. Navigate to the project directory: cd react-resin-estimator
+3. Install dependencies: npm install
+4. Start the development server: npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Live Demo
+A live demo of the project is available here.
