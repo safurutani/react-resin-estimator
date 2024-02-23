@@ -1,4 +1,4 @@
-# Genshin Impact Talent Resin Estimator
+# Genshin Impact Resin Estimator
 
 This project is a Genshin Impact resin estimator built using React. It helps players estimate the amount of resin needed to ascend the character and level up their talents.
 
